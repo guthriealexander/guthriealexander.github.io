@@ -481,5 +481,41 @@
     "x": 1978,
     "y": 0,
     "pixelRatio": 1
+  },
+  "length-restriction": {
+    "width": 22,
+    "height": 22,
+    "x": 2001,
+    "y": 0,
+    "pixelRatio": 1
+  },
+  "truck-restriction": {
+    "width": 22,
+    "height": 22,
+    "x": 2024,
+    "y": 0,
+    "pixelRatio": 1
+  },
+  "width-restriction": {
+    "width": 22,
+    "height": 22,
+    "x": 2047,
+    "y": 0,
+    "pixelRatio": 1
+  },
+  "weight-restriction": {
+    "width": 22,
+    "height": 22,
+    "x": 2070,
+    "y": 0,
+    "pixelRatio": 1
+  },
+  "closed": {
+    "width": 22,
+    "height": 22,
+    "x": 2095,
+    "y": 0,
+    "pixelRatio": 1
   }
+
 }
