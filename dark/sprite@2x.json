@@ -1,0 +1,520 @@
+{
+  "airport": {
+    "width": 38,
+    "height": 38,
+    "x": 0,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "citydot-open": {
+    "width": 16,
+    "height": 16,
+    "x": 38,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "citydot": {
+    "width": 10,
+    "height": 10,
+    "x": 54,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "convenience": {
+    "width": 44,
+    "height": 44,
+    "x": 64,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "education-school": {
+    "width": 30,
+    "height": 26,
+    "x": 108,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "education-university": {
+    "width": 34,
+    "height": 24,
+    "x": 138,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "elevator": {
+    "width": 44,
+    "height": 44,
+    "x": 172,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "entrance": {
+    "width": 44,
+    "height": 44,
+    "x": 216,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "food": {
+    "width": 44,
+    "height": 44,
+    "x": 260,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "food_restroom": {
+    "width": 44,
+    "height": 44,
+    "x": 304,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "gas": {
+    "width": 44,
+    "height": 44,
+    "x": 348,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "gate": {
+    "width": 44,
+    "height": 44,
+    "x": 392,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "hospital": {
+    "width": 26,
+    "height": 26,
+    "x": 436,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "landmark-food": {
+    "width": 20,
+    "height": 26,
+    "x": 462,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "landmark-fuel": {
+    "width": 18,
+    "height": 26,
+    "x": 482,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "landmark-major": {
+    "width": 14,
+    "height": 14,
+    "x": 500,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "landmark-shop": {
+    "width": 24,
+    "height": 20,
+    "x": 514,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "loading_dock": {
+    "width": 44,
+    "height": 44,
+    "x": 538,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "oneway": {
+    "width": 100,
+    "height": 58,
+    "x": 582,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "park": {
+    "width": 28,
+    "height": 26,
+    "x": 682,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "parking": {
+    "width": 44,
+    "height": 44,
+    "x": 710,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "restroom": {
+    "width": 44,
+    "height": 44,
+    "x": 754,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-AU-Metroad": {
+    "width": 46,
+    "height": 50,
+    "x": 798,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-AU-NatlHiwy": {
+    "width": 46,
+    "height": 50,
+    "x": 844,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-AU-NatlRte": {
+    "width": 44,
+    "height": 48,
+    "x": 890,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-AU-StRte": {
+    "width": 48,
+    "height": 46,
+    "x": 934,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-AU-Tourist": {
+    "width": 52,
+    "height": 54,
+    "x": 982,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-BR-National": {
+    "width": 54,
+    "height": 66,
+    "x": 1034,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-CA-TransCanada": {
+    "width": 52,
+    "height": 52,
+    "x": 1088,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-DE-Autobahn": {
+    "width": 88,
+    "height": 48,
+    "x": 1140,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-EG-National": {
+    "width": 54,
+    "height": 50,
+    "x": 1228,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-IN-National-wide": {
+    "width": 68,
+    "height": 74,
+    "x": 1282,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-IN-National": {
+    "width": 46,
+    "height": 74,
+    "x": 1350,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-IN-State": {
+    "width": 46,
+    "height": 74,
+    "x": 1396,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-IT-Autostrade-2-3": {
+    "width": 56,
+    "height": 48,
+    "x": 1442,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-IT-Autostrade-4-5": {
+    "width": 86,
+    "height": 48,
+    "x": 1498,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-JP-National": {
+    "width": 54,
+    "height": 50,
+    "x": 1584,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-JP-Prefectural": {
+    "width": 56,
+    "height": 48,
+    "x": 1638,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-MX-Federal-1-2": {
+    "width": 46,
+    "height": 70,
+    "x": 1694,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-MX-Federal-3-4": {
+    "width": 84,
+    "height": 70,
+    "x": 1740,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-MX-State": {
+    "width": 46,
+    "height": 70,
+    "x": 1824,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-NL-ring": {
+    "width": 82,
+    "height": 50,
+    "x": 1870,
+    "y": 0,
+    "pixelRatio": 2
+  },
+  "shield-SA-2-digit": {
+    "width": 64,
+    "height": 58,
+    "x": 0,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-SA-3-digit": {
+    "width": 64,
+    "height": 58,
+    "x": 64,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-TR-otoyol": {
+    "width": 90,
+    "height": 50,
+    "x": 128,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-UAE-DRte": {
+    "width": 46,
+    "height": 64,
+    "x": 218,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-UAE-ERte": {
+    "width": 46,
+    "height": 66,
+    "x": 264,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-US-Hwy-1-2": {
+    "width": 50,
+    "height": 50,
+    "x": 310,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-US-Hwy-3": {
+    "width": 60,
+    "height": 50,
+    "x": 360,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-US-Interstate-1-2": {
+    "width": 50,
+    "height": 60,
+    "x": 420,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-US-Interstate-3": {
+    "width": 64,
+    "height": 60,
+    "x": 470,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-mashreq": {
+    "width": 57,
+    "height": 58,
+    "x": 534,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-oval-white-1-2": {
+    "width": 56,
+    "height": 50,
+    "x": 591,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-oval-white-3-4": {
+    "width": 86,
+    "height": 50,
+    "x": 647,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-rectangle-blue-long": {
+    "width": 142,
+    "height": 48,
+    "x": 733,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-rectangle-blue": {
+    "width": 74,
+    "height": 48,
+    "x": 875,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-rectangle-green-long": {
+    "width": 118,
+    "height": 48,
+    "x": 949,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-rectangle-green": {
+    "width": 74,
+    "height": 48,
+    "x": 1067,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-rectangle-jp": {
+    "width": 60,
+    "height": 48,
+    "x": 1141,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-rectangle-red": {
+    "width": 74,
+    "height": 48,
+    "x": 1201,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-rectangle-white-long": {
+    "width": 118,
+    "height": 48,
+    "x": 1275,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-rectangle-white-xlong": {
+    "width": 210,
+    "height": 48,
+    "x": 1393,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-rectangle-white": {
+    "width": 74,
+    "height": 48,
+    "x": 1603,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-rectangle-yellow-long": {
+    "width": 118,
+    "height": 48,
+    "x": 1677,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shield-rectangle-yellow": {
+    "width": 74,
+    "height": 48,
+    "x": 1795,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "shopping": {
+    "width": 44,
+    "height": 44,
+    "x": 1869,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "staircase": {
+    "width": 44,
+    "height": 44,
+    "x": 1913,
+    "y": 74,
+    "pixelRatio": 2
+  },
+  "traffic-light": {
+    "width": 44,
+    "height": 16,
+    "x": 0,
+    "y": 140,
+    "pixelRatio": 2
+  },
+  "closed": {
+    "width": 46,
+    "height": 46,
+    "x": 49,
+    "y": 140,
+    "pixelRatio": 2
+  },
+  "notrucks": {
+    "width": 46,
+    "height": 46,
+    "x": 96,
+    "y": 140,
+    "pixelRatio": 2
+  },
+  "width": {
+    "width": 46,
+    "height": 46,
+    "x": 143,
+    "y": 140,
+    "pixelRatio": 2
+  },
+  "weight": {
+    "width": 46,
+    "height": 46,
+    "x": 190,
+    "y": 140,
+    "pixelRatio": 2
+  },
+  "length": {
+    "width": 46,
+    "height": 46,
+    "x": 237,
+    "y": 140,
+    "pixelRatio": 2
+  },
+  "height": {
+    "width": 46,
+    "height": 46,
+    "x": 284,
+    "y": 140,
+    "pixelRatio": 2
+  }
+}
