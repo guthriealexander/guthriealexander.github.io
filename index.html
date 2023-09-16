@@ -19,7 +19,7 @@
 <!-- Mapbox JavaScript -->
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
 <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZ3V0aHJpZWFsZXhhbmRlcjMiLCJhIjoiY2p2enIwYWYzMDM5cjRhbW1pbGNvajNjcyJ9.lo8XuPdCGz9rk448GpCPFA'; 
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZ3V0aHJpZWFsZXhhbmRlcjMiLCJhIjoiY2p2enIwYWYzMDM5cjRhbW1pbGNvajNjcyJ9.lo8XuPdCGz9rk448GpCPFA'; // Replace with your Mapbox access token
 
     var map = new mapboxgl.Map({
         container: 'map', 
@@ -28,13 +28,15 @@
         zoom: 1 
     });
 
+    var isLightStyle = true; // Flag to track which style is currently active
+
     function toggleMapStyle() {
-        var currentStyle = map.getStyle().name;
-        if (currentStyle === 'AmazonDelivery3.2_rabbit_internal') {
+        if (isLightStyle) {
             map.setStyle('https://guthriealexander.github.io/style/AmazonDark3.2_rabbit_internal.json');
         } else {
             map.setStyle('https://guthriealexander.github.io/style/AmazonDelivery3.2_rabbit_internal.json');
         }
+        isLightStyle = !isLightStyle;
     }
 </script>
 
