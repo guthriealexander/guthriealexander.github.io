@@ -1,7 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapbox Toggle Map Styles</title>
+    <!-- Mapbox CSS -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<div id="map"></div>
+<button onclick="toggleMapStyle()" style="position: absolute; top: 10px; left: 10px; z-index: 1;">Toggle Map Style</button>
+
+<!-- Mapbox JavaScript -->
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZ3V0aHJpZWFsZXhhbmRlcjMiLCJhIjoiY2p2enIwYWYzMDM5cjRhbW1pbGNvajNjcyJ9.lo8XuPdCGz9rk448GpCPFA'; 
+
+    var map = new mapboxgl.Map({
+        container: 'map', 
+        style: 'https://guthriealexander.github.io/style/AmazonDelivery3.2_rabbit_internal.json', 
+        center: [0, 0], 
+        zoom: 1 
+    });
+
+    function toggleMapStyle() {
+        var currentStyle = map.getStyle().name;
+        if (currentStyle === 'AmazonDelivery3.2_rabbit_internal') {
+            map.setStyle('https://guthriealexander.github.io/style/AmazonDark3.2_rabbit_internal.json');
+        } else {
+            map.setStyle('https://guthriealexander.github.io/style/AmazonDelivery3.2_rabbit_internal.json');
+        }
+    }
+</script>
+
 </body>
 </html>
