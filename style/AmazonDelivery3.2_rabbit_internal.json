@@ -1426,7 +1426,7 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "line-width": {"stops": [[7, 1], [10, 3], [14, 4], [16, 8]]},
@@ -1450,7 +1450,7 @@
         ],
         ["==", ["get", "brunnel"], "tunnel"]
       ],
-      "layout": {"visibility": "visible", "line-cap": "round"},
+      "layout": {"visibility": "none", "line-cap": "round"},
       "paint": {
         "line-width": {"stops": [[7, 1], [10, 3], [14, 4], [16, 7]]},
         "line-color": "rgba(255, 0, 188, 1)"
@@ -3442,7 +3442,7 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "line-width": {"stops": [[7, 1], [10, 3], [14, 4], [16, 8]]},
@@ -3462,7 +3462,7 @@
         ["has", "maxlengthtrimble"],
         ["has", "hgvtrimble"]
       ],
-      "layout": {"visibility": "visible", "line-cap": "round"},
+      "layout": {"visibility": "none", "line-cap": "round"},
       "paint": {
         "line-width": {"stops": [[7, 1], [10, 3], [14, 4], [16, 7]]},
         "line-color": "rgba(255, 0, 188, 1)"
@@ -4455,7 +4455,7 @@
       "layout": {
         "line-cap": "round",
         "line-join": "round",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "line-width": {"stops": [[7, 1], [10, 3], [14, 4], [16, 8]]},
@@ -4468,7 +4468,7 @@
       "source": "AmznVector",
       "source-layer": "transportation",
       "filter": ["all", ["==", ["get", "middlemilenothrough"], "true"]],
-      "layout": {"visibility": "visible", "line-cap": "round"},
+      "layout": {"visibility": "none", "line-cap": "round"},
       "paint": {
         "line-width": {"stops": [[7, 1], [10, 3], [14, 4], [16, 7]]},
         "line-color": "rgba(255, 0, 188, 1)"
@@ -4491,7 +4491,7 @@
         ],
         ["==", ["get", "brunnel"], "bridge"]
       ],
-      "layout": {"visibility": "visible", "line-cap": "round"},
+      "layout": {"visibility": "none", "line-cap": "round"},
       "paint": {
         "line-width": {"stops": [[7, 1], [10, 3], [14, 4], [16, 7]]},
         "line-color": "rgba(255, 0, 188, 1)"
@@ -6227,7 +6227,7 @@
           16,
           10
         ],
-        "visibility": "visible",
+        "visibility": "none",
         "icon-image": [
           "case",
           ["has", "maxweighttrimble"],
